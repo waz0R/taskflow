@@ -1,7 +1,6 @@
-
 # TaskFlow
 
-Aplicación full-stack para la gestión de tareas, construida con React, Node.js, PostgreSQL y autenticación JWT.
+Aplicación full-stack para la gestión de tareas.
 
 ---
 
@@ -40,109 +39,115 @@ Este proyecto fue creado como parte de un plan de aprendizaje en desarrollo full
 ### Instalación y uso local
 
 Clonar el repositorio:
-
-```bash
 git clone https://github.com/waz0R/taskflow.git
 cd taskflow
-Configurar el backend:
 
-bash
+text
+
+Configurar el backend:
 cd backend
 npm install
-# Crear archivo .env con las variables de entorno
-npm start
-Configurar el frontend:
 
-bash
+Crear archivo .env con las variables de entorno
+npm start
+
+text
+
+Configurar el frontend:
 cd frontend
 npm install
 npm start
-Abrir el navegador en http://localhost:3000.
 
-Contribuciones
+text
+
+Abrir el navegador en `http://localhost:3000`.
+
+### Contribuciones
+
 Este proyecto es de código abierto. Las contribuciones son bienvenidas. Se pueden abrir issues o enviar pull requests.
 
-Licencia
+### Licencia
+
 MIT License. Se permite el uso, modificación y distribución siempre que se mantenga el aviso de copyright original.
 
-Autor
-Mariano Cifuentes (waz0R)
+---
 
-GitHub: https://github.com/waz0R
+## 📘 English
 
-Proyecto: https://github.com/waz0R/taskflow
+### Description
 
-📘 English
-Description
 TaskFlow is a full-stack task management web application designed to help organize daily tasks in a simple and intuitive way. It offers a complete task CRUD, user authentication, and a modern, responsive interface.
 
 This project was built as part of a full-stack development learning plan and is intended to be open source, easy to use, and extensible.
 
-Current features
-User authentication with JWT (register and login).
+### Current features
 
-Full task CRUD (create, read, update, delete).
+- User authentication with JWT (register and login).
+- Full task CRUD (create, read, update, delete).
+- Responsive design with Tailwind CSS.
+- Open source under MIT license.
 
-Responsive design with Tailwind CSS.
+### Planned features (next version)
 
-Open source under MIT license.
+- Due dates for tasks.
+- Dark and light mode.
+- Image upload for tasks.
+- Integrated drawing board.
+- Filters by status and date.
+- Pagination in the task list.
+- API documentation with Swagger.
+- Language selector (Spanish/English).
 
-Planned features (next version)
-Due dates for tasks.
+### Technologies used
 
-Dark and light mode.
+- Frontend: React, Tailwind CSS, Axios, React Router.
+- Backend: Node.js, Express, PostgreSQL, JWT, bcrypt.
+- Deployment: Pending (Railway / Vercel).
 
-Image upload for tasks.
+### Local installation and usage
 
-Integrated drawing board.
-
-Filters by status and date.
-
-Pagination in the task list.
-
-API documentation with Swagger.
-
-Language selector (Spanish/English).
-
-Technologies used
-Frontend: React, Tailwind CSS, Axios, React Router.
-
-Backend: Node.js, Express, PostgreSQL, JWT, bcrypt.
-
-Deployment: Pending (Railway / Vercel).
-
-Local installation and usage
 Clone the repository:
-
-bash
 git clone https://github.com/waz0R/taskflow.git
 cd taskflow
-Set up the backend:
 
-bash
+text
+
+Set up the backend:
 cd backend
 npm install
-# Create a .env file with environment variables
-npm start
-Set up the frontend:
 
-bash
+Create a .env file with environment variables
+npm start
+
+text
+
+Set up the frontend:
 cd frontend
 npm install
 npm start
-Open your browser at http://localhost:3000.
 
-Contributions
+text
+
+Open your browser at `http://localhost:3000`.
+
+### Contributions
+
 This is an open source project. Contributions are welcome. You can open issues or submit pull requests.
 
-License
+### License
+
 MIT License. You may use, modify, and distribute it as long as the original copyright notice is retained.
 
-Author
-Mariano Cifuentes (waz0R)
+---
 
-GitHub: https://github.com/waz0R
+## 👤 Autor
 
-Project: https://github.com/waz0R/taskflow
+**Mariano Cifuentes (alias Belvederessi)**
 
+- GitHub: [waz0R](https://github.com/waz0R)
+- Proyecto: [TaskFlow](https://github.com/waz0R/taskflow)
+- Fecha: Julio 2026
 
+---
+
+*TaskFlow - Código abierto para organizar tu vida.*
